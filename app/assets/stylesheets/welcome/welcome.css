@@ -1,9 +1,17 @@
 .evil-logo{
-	position:absolute; 
-	left:0px; 
-	top:0px;
-	background:url(/images/evil-logo.png); 
-	width:100%; 
-	height:100%;
-	border:0;
+	position: absolute; 
+	left: 0px; 
+	top: 0px;
+	background: url(/images/evil-logo.png); 
+	width: 100%; 
+	height: 100%;
+	border: 0;
+}
+.footer{
+	font-size: 16px;
+	color: #ffffff;
+	background-color: rgb(255,255,255,0);
+	clear: both;
+	text-align: center;
+	margin: 880px 0px 0px 0px;
 }
