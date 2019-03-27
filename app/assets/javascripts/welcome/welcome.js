@@ -1,11 +1,12 @@
-Vue.component('top-panel', {
-	template:'<div id="app">\
-		    <el-button @click="visible = true">Button</el-button>\
-		    <el-dialog :visible.sync="visible" title="Hello world">\
-		      <p>Try Element</p>\
-		    </el-dialog>\
-		  </div>',
+Vue.component('welcome-panel', {
+	template:'<div id="welcomeApp">\
+		<welcome-top-panel></welcome-top-panel>\
+		<welcome-center-panel></welcome-center-panel>\
+		<welcome-under-panel></welcome-under-panel>\
+	</div>',
 	data: function() {
-    	return { visible: false }
+    	return { 
+    		//visible: false 
+    	}
   	}
 });
