@@ -5,7 +5,7 @@ Vue.component('welcome-center-panel', {
 				<img class="head-portrait img-circle center-block button-glow" src = "/images/alice-portrait.png" alt="head portrait">\
 				<p class="motto_text">SandyDove</p>\
 				<hr style="background-color: #0000000">\
-				<p class="motto_text">逃离地球中</p>\
+				<p class="motto_text">努力逃离地球中</p>\
 				<el-col :span="24" align="center">\
 					<div class="grid-content bg-purple-dark">\
 						  <el-button class="element-button">启示录</el-button>\
